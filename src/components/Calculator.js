@@ -1,19 +1,45 @@
 import React from 'react';
 import './Calculator.css';
+import calculate from '../logic/Calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Calculator extends React.Component {
   constructor(props) {
-    
+    super(props);
+
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
-handleClick = () => {
-  console.log('working');
+
+handleClick = (e) => {
+  const Target = e.target.value;
+  this.setState((state) => calculate({
+    next: state.next,
+    total: state.total,
+    operation: state.operation,
+  }, Target));
 };
 
 render() {
+  const { total, next, operation } = this.state;
   return (
     <div className="container">
-      <div className="display-area">0</div>
+      <div className="display-area">
+        {total}
+        {' '}
+
+        {' '}
+        {operation}
+        {' '}
+
+        {' '}
+        {next}
+        {' '}
+      </div>
       <button type="button" value="AC" onClick={this.handleClick}>
         AC
       </button>
