@@ -1,5 +1,5 @@
 import React from 'react';
-import './Quote.css';
+import './Quotes.css';
 
 const Quotes = () => (
   <div className="quotesSection">
