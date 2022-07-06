@@ -1,0 +1,23 @@
+header {
+  background-color: rgba(128, 128, 125, 0.558);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+
+.nav {
+  padding-left: 20px;
+  color: rgb(253, 249, 249);
+}
+
+.navigation {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.nav:hover {
+  color: orange;
+}
