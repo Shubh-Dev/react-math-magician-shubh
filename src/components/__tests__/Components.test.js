@@ -1,6 +1,5 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Header from '../../pages/Header';
 import Home from '../../pages/Home'
 import Quotes from '../../pages/Quotes';
 import Calculator from '../Calculator';
