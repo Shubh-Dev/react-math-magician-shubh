@@ -38,8 +38,8 @@ describe('state object operation test', () => {
     const button = '÷';
     const result = calculate(stateObj, button);
 
-    expect(result.total).not.toBe('6')
-  })
+    expect(result.total).not.toBe('6');
+  });
 
   test('clear button test', () => {
     const stateObj = { total: null, next: null, operation: null };
@@ -47,7 +47,5 @@ describe('state object operation test', () => {
     const result = calculate(stateObj, button);
 
     expect(result.total).toBe(null);
-  })
-
-
+  });
 });
