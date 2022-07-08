@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculater component test builds the snapshot of the Calculator component 1`] = `
+Array [
+  <h2
+    className="title-cal"
+  >
+    Let's do some Math!
+  </h2>,
+  <div
+    className="container"
+  >
+    <div
+      className="display-area"
+    >
+      0
+    </div>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="AC"
+    >
+      AC
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="+/-"
+    >
+      +/-
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="%"
+    >
+      %
+    </button>
+    <button
+      className="orange-color"
+      onClick={[Function]}
+      type="button"
+      value="÷"
+    >
+      ÷
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="7"
+    >
+      7
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="8"
+    >
+      8
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="9"
+    >
+      9
+    </button>
+    <button
+      className="orange-color"
+      onClick={[Function]}
+      type="button"
+      value="x"
+    >
+      x
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="4"
+    >
+      4
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="5"
+    >
+      5
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="6"
+    >
+      6
+    </button>
+    <button
+      className="orange-color"
+      onClick={[Function]}
+      type="button"
+      value="-"
+    >
+      -
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="1"
+    >
+      1
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="2"
+    >
+      2
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="3"
+    >
+      3
+    </button>
+    <button
+      className="orange-color"
+      onClick={[Function]}
+      type="button"
+      value="+"
+    >
+      +
+    </button>
+    <button
+      className="bigger-btn"
+      onClick={[Function]}
+      type="button"
+      value="0"
+    >
+      0
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="."
+    >
+      .
+    </button>
+    <button
+      className="orange-color"
+      onClick={[Function]}
+      type="button"
+      value="="
+    >
+      =
+    </button>
+  </div>,
+]
+`;
+
+exports[`Calculater component test builds the snapshot of the Home component 1`] = `
+<div
+  className="homepage"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
+    </p>
+  </p>
+</div>
+`;
+
+exports[`Calculater component test builds the snapshot of the Quotes component 1`] = `
+<div
+  className="quotesSection"
+>
+  <p>
+    Mathematics is not about numbers, equation, computations or algorithms: it is about understanding.- Willium Paul Thurston.
+  </p>
+</div>
+`;
